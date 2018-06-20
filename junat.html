@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aforismit</title>
+</head>
+<body>
+<script>
+    var ajattelija = {"name"}
+var aforismit = [{"name":"Tommi", "afo":"Hei"}, {"name": "Matti", "afo":"Moi"}];
+function hae() {
+    for (i=0; i<aforismit.length; i++) {
+        document.write("<li>" + aforismit[i].name + ": " + aforismit[i].afo +"</li>")
+    }
+
+}
+
+</script>
+<div id="Sanat">
+    <button type="submit" onclick="hae()">Hae</button>
+    <ul id="hei">
+
+    </ul>
+</div>
+</body>
+</html>
